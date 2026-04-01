@@ -12,6 +12,10 @@ Download dataset (ZIP):
 👉 https://github.com/albertyang644/webus-bible/releases
 
 
+Includes:
+- Raw verse files (ZIP)
+- SQLite database (ready to query)
+
 ---
 
 ## What This Repository Contains
