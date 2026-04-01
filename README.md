@@ -4,19 +4,27 @@ This repository provides a **canonical, open, and computation-first representati
 
 The project treats Scripture as **structured data**, not as a presentation artifact.
 
+
+## Download 
+
+Download dataset (ZIP):
+
+👉 https://github.com/albertyang644/webus-bible/releases
+
+
 ---
 
 ## What This Repository Contains
 
 ### 🗄️ Canonical Dataset
-- **`db/bible.sqlite3`** — SQLite database containing every verse as an atomic record
+- **`db/WEBUS_bible.sqlite3`** — SQLite database containing every verse as an atomic record
   - Deterministic ordering via `global_ordinal`
   - OSIS-compliant book identifiers
   - Ready for querying, analysis, and application use
 
 ### 📄 Source Artifacts
 - **`data/Bible_WebUS_One_Folder_Only.zip`**
-- **`data/Bible_WebUS_One_Folder_Per_Book.zip`**
+- **`data/Bible_WebUS_One_File_Per_Book.zip`**
 
 These ZIP archives contain the original **ASCII flat-file verse sources**, preserved for transparency and reproducibility.
 
