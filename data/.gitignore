@@ -1,0 +1,9 @@
+# Ignore all data subfolders
+data/Bible_WebUS_One_File_Per_Book/
+data/Bible_WebUS_One_Folder_Only/
+
+# Allow zip files in /data
+!data/*.zip
+
+# (Optional) Keep the data README
+!data/data_README.md
